@@ -3,6 +3,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 5px 60px;
+  height: 56px;
   background-color: transparent !important;
   border-bottom: solid 1px rgb(0, 0, 0);
 }
@@ -15,7 +16,8 @@
   font-weight: 400;
   letter-spacing: 5px;
   font-size: 20px;
-  width: 10%;
+  width: 50px;
+  margin-left: 30px;
 }
 .slide-menu-logo {
   position: absolute;
@@ -33,9 +35,9 @@
   height: 60px;
 }
 .logo img {
-  width: 50%;
+  width: 50px;
   object-fit: cover;
-  height: 30%;
+  height: 30px;
 }
 
 .slide-menu {
@@ -126,7 +128,7 @@
   }
   .slide-menu {
     display: block;
-    margin-bottom: 7vh;
+    /* margin-bottom: 7vh; */
   }
   .external-link {
     right: 39vw;

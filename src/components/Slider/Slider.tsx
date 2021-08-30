@@ -14,14 +14,11 @@ const SliderComponent: React.FC = () => {
     speed: 1400,
     slidesToShow: 1,
     slidesToScroll: 1,
-    // nextArrow: true,
-    // prevArrow: true,
     nextArrow: <NextArrow />,
     prevArrow: <PrevArrow />,
   };
   return (
     <div className="slider-component">
-      <p>Tour our virtual museum</p>
       <div className="banner"></div>
 
       <Slider {...settings}>
