@@ -6,6 +6,7 @@ import model3 from "../../assets/images/Model_3_-_Black.png";
 import modelX from "../../assets/images/Model_X_-_Yellow.png";
 import modelY from "../../assets/images/Model_Y_-_Blue.png";
 import { NextArrow, PrevArrow } from "../../utils/util_functions";
+import { nextTick } from "node:process";
 
 const SliderComponent: React.FC = () => {
   const settings = {
@@ -14,8 +15,8 @@ const SliderComponent: React.FC = () => {
     speed: 1400,
     slidesToShow: 1,
     slidesToScroll: 1,
-    nextArrow: <NextArrow />,
-    prevArrow: <PrevArrow />,
+    nextArrow: window.innerWidth > 768 ? <NextArrow /> : undefined,
+    prevArrow: window.innerWidth > 768 ? <PrevArrow /> : undefined,
   };
   return (
     <div className="slider-component">

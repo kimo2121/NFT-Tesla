@@ -58,6 +58,9 @@
 }
 
 @media screen and (max-width: 1024px) {
+  .history-component {
+    margin-top: 10vh;
+  }
   .sec-title h2 {
     font-size: 7.2vmin;
   }
