@@ -1,0 +1,48 @@
+.slider-component {
+  width: 100%;
+  height: fit-content;
+  overflow: hidden !important;
+}
+.slider-component img {
+  width: 1000px !important;
+  height: 89.3vh !important;
+  object-fit: contain !important;
+}
+.slider-component p {
+  position: absolute;
+  color: white;
+  top: 80%;
+  right: 44.5%;
+  font-weight: 100;
+  font-size: 0.9vmax;
+  z-index: 100;
+  text-transform: uppercase;
+  /* margin: 0 auto; */
+}
+.arrow {
+  border-radius: 100px;
+  width: 45px;
+  height: 45px;
+  transform: translateY(-50%);
+  color: white;
+  position: absolute;
+  cursor: pointer;
+  font-size: 35px;
+  z-index: 10;
+}
+.left-direction {
+  margin-top: 20% !important;
+  margin-left: 10% !important;
+}
+.right-direction {
+  margin-top: 20% !important;
+  margin-left: 15% !important;
+}
+.next {
+  right: 45.5%;
+  top: 90%;
+}
+.prev {
+  left: 45%;
+  top: 90%;
+}

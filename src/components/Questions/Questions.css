@@ -1,0 +1,76 @@
+.questions-container {
+  justify-content: space-between;
+  display: flex;
+  padding-right: 72px;
+  padding-bottom: 144px;
+}
+.questions {
+  text-align: left;
+  width: 70%;
+}
+.closed {
+  opacity: 0;
+}
+.closed .vertical {
+  transition: all 0.3s ease-in-out;
+  transform: rotate(0deg);
+}
+.closed .horizontal {
+  transition: all 0.3s ease-in-out;
+  transform: rotate(0deg);
+  opacity: 1;
+}
+
+.opened {
+  opacity: 1;
+}
+.opened .vertical {
+  transition: all 0.3s ease-in-out;
+  transform: rotate(90deg);
+}
+.opened .horizontal {
+  transition: all 0.3s ease-in-out;
+  transform: rotate(90deg);
+  opacity: 0;
+}
+
+.circle-plus {
+  opacity: 0.7;
+}
+
+.circle-plus .circle {
+  position: relative;
+}
+.circle-plus .circle .horizontal {
+  position: absolute;
+  background-color: white;
+  width: 20px;
+  height: 2px;
+  left: 50%;
+  margin-left: -12px;
+  top: 50%;
+  margin-top: -2.5px;
+}
+.circle-plus .circle .vertical {
+  position: absolute;
+  background-color: white;
+  width: 2px;
+  height: 20px;
+  left: 50%;
+  margin-left: -2.5px;
+  top: 50%;
+  margin-top: -11px;
+}
+
+@media screen and (max-width: 1024px) {
+  .questions-container {
+    padding: 0;
+    flex-direction: column;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 123px;
+  }
+  .questions {
+    width: 100%;
+  }
+}

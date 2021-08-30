@@ -1,0 +1,35 @@
+.footer svg {
+  fill: white !important;
+  width: 30px;
+  height: 30px;
+  color: white;
+}
+.other-inner {
+  display: flex;
+  justify-content: space-between;
+}
+.footer {
+  display: flex;
+  padding: 32.3px;
+  color: white;
+  background-color: #988301;
+  align-items: flex-start;
+  justify-content: center;
+}
+.discord {
+  margin-right: 97px;
+}
+.discord img {
+  width: 155px;
+  object-fit: contain;
+  /* height: 55px; */
+}
+@media screen and (max-width: 1024px) {
+  .footer {
+    flex-direction: column;
+    align-items: center;
+  }
+  .discord {
+    margin-right: 0;
+  }
+}

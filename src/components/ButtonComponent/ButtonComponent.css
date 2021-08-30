@@ -1,0 +1,29 @@
+.nav-btn {
+  color: rgb(0, 0, 0);
+  margin: 0 22px;
+  font-weight: 100;
+  font-size: 0.88vmax;
+  letter-spacing: 2px;
+}
+.mint-your-bull-btn {
+  color: white;
+  /* background: #988301; */
+  background-image: linear-gradient(
+    to top left,
+    #988301 50%,
+    rgb(165, 144, 26) 50%
+  );
+  padding: 12px 19px;
+}
+@media screen and (max-width: 1024px) {
+  .nav-btn {
+    border-bottom: 2px solid white;
+    width: 100%;
+    margin: 0;
+    font-size: 2vmax;
+    padding: 2.95vmax;
+  }
+  .nav-btn:last-child {
+    border: 0;
+  }
+}

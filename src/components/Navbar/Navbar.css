@@ -1,0 +1,117 @@
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 60px;
+  background-color: transparent !important;
+  border-bottom: solid 1px rgb(0, 0, 0);
+}
+.nav-links {
+  display: flex;
+  justify-content: space-around;
+}
+.logo {
+  color: white;
+  font-weight: 400;
+  letter-spacing: 5px;
+  font-size: 20px;
+  width: 10%;
+}
+.logo img {
+  width: 50%;
+  object-fit: cover;
+  height: 30%;
+}
+
+.slide-menu {
+  display: none;
+}
+.slide-menu-icon {
+  position: absolute;
+  top: 30px;
+  left: 12px;
+  z-index: 100000;
+  transition: all 0.2s;
+}
+.slide-menu-icon.active span:nth-child(2) {
+  opacity: 0;
+}
+.slide-menu-icon.active span:nth-child(1) {
+  /* margin-bottom: 0.5vh; */
+  transform: rotate(60deg);
+}
+.slide-menu-icon.active span:nth-child(3) {
+  margin-bottom: 1.5vh;
+  transform: rotate(-60deg);
+}
+.slide-menu-icon span {
+  width: 35px;
+  height: 2px;
+  position: relative;
+  margin: 0.5vh 0;
+  display: block;
+  background-color: white;
+}
+.menu-content {
+  top: 0;
+  padding-top: 7vh;
+  position: fixed;
+  left: 0;
+  top: -100%;
+  display: block;
+  z-index: 10000;
+  width: 100vw;
+  background-color: rgb(27, 27, 27);
+  transition: all 0.2s;
+  display: flex;
+  flex-direction: column;
+}
+.backdrop-back {
+  position: absolute;
+  z-index: 1000;
+  top: 0;
+  background: rgba(0, 0, 0, 0.568);
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+.menu-content.active {
+  left: 0;
+  top: 0;
+}
+.close-icon {
+  fill: white;
+  width: 22px;
+  height: 22px;
+  right: 4vw;
+  position: absolute;
+  top: 2vh;
+  stroke-width: 10px;
+}
+.menu-content button {
+  margin: 0vh auto;
+  border-radius: 5px;
+  padding: 10px 30px;
+  font-size: 16px;
+}
+.menu-content button:active {
+  background-color: rgb(32, 87, 129);
+}
+@media screen and (max-width: 1024px) {
+  .nav-links {
+    display: none;
+  }
+  .slide-menu {
+    display: block;
+    margin-bottom: 7vh;
+  }
+  .external-link {
+    right: 39vw;
+    margin-top: 200px;
+  }
+  .external-link svg {
+    width: 35px;
+  }
+}

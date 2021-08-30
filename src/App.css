@@ -1,0 +1,16 @@
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+.App {
+  text-align: center;
+}
+.banner {
+  background-image: url("/src/assets/images/opensea.png");
+  background-size: cover;
+  height: 100% !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+}
