@@ -20,6 +20,8 @@ const SliderComponent: React.FC = () => {
   return (
     <div className="slider-component">
       <p>Tour our virtual museum</p>
+      <div className="banner"></div>
+
       <Slider {...settings}>
         <img src={stoneBull} alt="" />
         <img src={woodBull} alt="" />

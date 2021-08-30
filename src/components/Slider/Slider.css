@@ -1,11 +1,15 @@
 .slider-component {
   width: 100%;
-  height: fit-content;
   overflow: hidden !important;
+  height: fit-content;
 }
 .slider-component img {
-  width: 100% !important;
-  height: 600px;
+  width: 50vmax !important;
+  height: 90vh;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
 .slider-component p {
   position: absolute;
@@ -65,5 +69,11 @@
   .prev {
     left: 35.5%;
     top: 90%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .slider-component p {
+    right: 35%;
   }
 }

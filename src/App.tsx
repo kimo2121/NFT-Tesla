@@ -7,7 +7,6 @@ import Home from "./pages/Home/Home";
 const App: React.FC = () => {
   return (
     <div className="App">
-      <div className="banner"></div>
       <Navbar />
       <Home />
       <Footer />
