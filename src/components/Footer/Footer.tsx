@@ -11,12 +11,14 @@ const Footer: React.FC = () => {
     <div className="footer">
       <div className="discord">
         <p>JOIN OUR COMMUNITY</p>
-        <img src={discord} alt="" />
+        <a href="https://discord.gg/AcXyqrEj">
+          <img src={discord} alt="" />
+        </a>
       </div>
       <div className="other-socials">
         <p>FOLLOW US ON</p>
         <div className="other-inner">
-          <a href="https://twitter.com/bullseum">
+          <a href="https://mobile.twitter.com/ElonsTeslaNft">
             <Twitter />
           </a>
           <a href="https://www.youtube.com/channel/UCtD4x58LR6cAFhqY1YEqj0Q">

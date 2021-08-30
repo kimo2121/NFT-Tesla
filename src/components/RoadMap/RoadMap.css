@@ -17,6 +17,8 @@
 .div-percent h3 {
   font-size: 3.75vmax;
   font-weight: 600;
+  word-wrap: break-word !important;
+  word-break: break-all !important;
   line-height: 1.2;
   text-transform: uppercase;
   color: #988301;

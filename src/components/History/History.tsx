@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import Typography from "../Typography/Typography";
 import "./History.css";
-import history from "../../assets/images/history.png";
+import elonTesla from "../../assets/images/elonTesla.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
 const History: React.FC = () => {
@@ -24,12 +24,12 @@ const History: React.FC = () => {
             data-aos-duration="1000"
             data-aos-easing="linear"
           >
-            HI
+            CO
             <br />
-            ST
+            NC
             <br />
-            OR
-            <br />Y
+            EP
+            <br />T
           </h2>
         </div>
       ) : (
@@ -39,7 +39,7 @@ const History: React.FC = () => {
             data-aos-duration="1000"
             data-aos-easing="linear"
           >
-            HISTORY
+            CONCEPT
           </h2>
           <span
             data-aos="fade-up"
@@ -55,42 +55,37 @@ const History: React.FC = () => {
           className="left-side-div"
         >
           <Typography className="up-left-p">
-            It is the year 3223, and the world is no longer as we remembered it.
-            Traces of human civilization are finally disappearing and new
-            civilizations are organized in new ways. Family nuclei have changed,
-            and religions are no longer what they used to be. Species mutated,
-            and only the strongest survived.
+            Elon. Tesla. NFT's. Curiosity piqued? Have you ever envisioned
+            owning a Tesla you could actually afford? Well, now that we have
+            your attention, let us introduce you to the possibilities our
+            showroom offers. From the standard model S, 3, X, Y to the elusive
+            cyber truck and roadster which are not yet available to the public.
+            5,000 custom made Tesla NFTs will be minted, all with exclusive
+            features and rarity attributes.
           </Typography>
           <Typography className="down-left-p">
-            The bulls are one of them, thanks to their constant optimism and
-            their willpower, they managed to survive over the years, becoming
-            more and more intelligent and organized by mixing and incorporating
-            what they once were with human customs. One of the customs that was
-            inherited over time was art. It is indisputable that art has always
-            been a fundamental part of intelligent society.
+            For you Plaid lovers, we did not forget about you. The Model S Plaid
+            and Plaid+ will be also be rare availables in our initial mint!
           </Typography>
         </div>
-        <img src={history} alt="" />
+        <img src={elonTesla} alt="" />
         <div
           data-aos="fade-left"
           data-aos-duration="1000"
           className="right-side-div"
         >
           <Typography className="up-right-p">
-            The most valuable art collection of this civilization is kept in a
-            museum called "Bullseum", in which portraits of the most influential
-            figures of the species can be found. These portraits were created by
-            the most intelligent and talented individuals. Being this
-            collection, one of its most precious treasures.
+            With future updates, you'll be able to upgrade and fully customize
+            your Tesla with pimped up accessories from our dealership and garage
+            which will be released soon. Also, all holders will receive a custom
+            Space X NFT airdrop ready for our ‘dodge to the moon’ play-to-earn
+            game.
           </Typography>
           <Typography className="down-right-p">
-            In more recent years, the bull’s civilization has been weakening,
-            entering wars with other species, and having many internal
-            conflicts. That is why there is a fear that their most precious
-            treasure will fall into the wrong hands. After a long leaders'
-            assembly, they decided to put 5,000 portraits from their collection
-            up for sale, to ensure that these are distributed around the world
-            in the hands of the right people.
+            Metaverse? Yes, you read that correctly. Elon's Tesla will
+            inevitably be part of a highly anticipated metaverse which will be
+            built upon successful mint. Until then, we recommend listening to
+            Blinding Lights by The Weeknd.
           </Typography>
         </div>
       </div>

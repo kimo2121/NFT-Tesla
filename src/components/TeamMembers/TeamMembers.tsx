@@ -58,7 +58,7 @@ const TeamMembers: React.FC = () => {
         <TeamMemberBull
           className=""
           img={member6}
-          label="Minzur"
+          label="Elon Musk"
           Aos="fade-down"
           Aos2="fade-right"
           header="PROJECT LEAD"
@@ -68,7 +68,7 @@ const TeamMembers: React.FC = () => {
           img={member1}
           Aos="fade-down"
           Aos2="fade-right"
-          label="Aremyr"
+          label="Floki"
           header="BLOCKCHAIN DEV"
         />
         <TeamMemberBull

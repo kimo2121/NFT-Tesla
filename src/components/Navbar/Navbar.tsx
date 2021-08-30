@@ -1,15 +1,20 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import ButtonComponent from "../ButtonComponent/ButtonComponent";
 import "./Navbar.css";
 import logo from "../../assets/images/Logo2.png";
+import AOS from "aos";
+import "aos/dist/aos.css";
 const Navbar: React.FC = () => {
   const [menu, setMenu] = useState(false);
-
+  useEffect(() => {
+    AOS.init({
+      duration: 1400,
+    });
+  }, []);
   return (
     <div>
       <div className="nav-bar">
         <div className="logo">
-          {/* <p>BULLSUM</p> */}
           <img src={logo} alt="" />
         </div>
         <div className="nav-links">
@@ -17,15 +22,15 @@ const Navbar: React.FC = () => {
             className="nav-btn collection-btn"
             label="COLLECTION"
           />
-          <ButtonComponent className="nav-btn history-btn" label="HISTORY" />
-          <ButtonComponent className="nav-btn roadmap-btn" label="ROADMAP" />
+          <ButtonComponent className="nav-btn history-btn" label="CONCEPT" />
+          <ButtonComponent className="nav-btn roadmap-btn" label="RACETRACK" />
           <ButtonComponent className="nav-btn team-btn" label="TEAM" />
           <ButtonComponent className="nav-btn faq-btn" label="FAQ" />
         </div>
         <div className="mint-your-bull">
           <ButtonComponent
             className="mint-your-bull-btn"
-            label="MINT-YOUR-BULL"
+            label="MINT YOUR TESLA"
           />
         </div>
       </div>
@@ -41,13 +46,20 @@ const Navbar: React.FC = () => {
         </div>
         {menu && (
           <div
-            // data-aos="slide-right"
+            data-aos="fade-down"
+            data-aos-duration="500"
+            data-aos-easing="linear"
             className={menu ? "menu-content active" : "menu-content"}
           >
-            {/* <Close
-                onClick={() => setMenu(false)}
-                className={menu ? "close-icon" : "close-icon active"}
-              /> */}
+            <div className="mint-your-tesla-slid">
+              <ButtonComponent
+                className="mint-your-bull-btn"
+                label="MINT YOUR TESLA"
+              />
+            </div>
+            <div className="slide-menu-logo">
+              <img src={logo} alt="" />
+            </div>
             <ButtonComponent
               className="nav-btn collection-btn"
               label="COLLECTION"
@@ -55,12 +67,12 @@ const Navbar: React.FC = () => {
             <ButtonComponent
               onClickFun={() => setMenu(false)}
               className="nav-btn history-btn"
-              label="HISTORY"
+              label="CONCEPT"
             />
             <ButtonComponent
               onClickFun={() => setMenu(false)}
               className="nav-btn roadmap-btn"
-              label="ROADMAP"
+              label="RACETRACK"
             />
             <ButtonComponent
               onClickFun={() => setMenu(false)}

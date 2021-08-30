@@ -12,70 +12,60 @@ interface dataType {
 }
 export const data: dataType["paragraphs"] = [
   {
-    text: `1) What is Bullseum?`,
-    span: `
-    Bullseum is an Art project, which will create 5.000 collectible
-            NFTs, which will be randomly generated at the time of mining with
-            more than 110 attributes available! Each NFT will be made with the
-            deepest dedication, as each attribute is hand-drawn by our
-            professional artists.
+    text: `1) What are Elon’s Tesla NFTs?`,
+    span: `Elon’s Teslas is an NFT project which includes art collectibles of your favourite Tesla model. Each will be randomly generated with multiple attributes ranging from model, color, rim and logo! All are professionally designed with a dedicated graphic designer.
     `,
     aos: "fade-right",
     aosDuration: "1500",
   },
   {
-    text: `2) When do you drop?`,
-    span: `The official drop day will be Friday, August 27, 21hs UTC.`,
+    text: `2) When is the NFT drop?`,
+    span: `This will be announced on our discord channel and Twitter channel. Anticipated for Monday 6th September, 2021.`,
     aos: "fade-up",
     aosDuration: "1000",
   },
   {
-    text: `3) How can I get a Bull?`,
-    span: `Our bulls will be able to be bought through our website in an initial sale, at the time of purchase a totally random bull will be assigned, when the initial sale ends, you can buy the collection in Open Sea.`,
+    text: `3) How can I get a Tesla?`,
+    span: `Teslas will be able to be minted through our website for the initial sale. These will be totally random in nature, and the collection will also be available to trade on Opensea.`,
     aos: "fade-left",
     aosDuration: "1500",
   },
   {
-    text: `4) I have an issue, what do I do?`,
-    span: `
-  If you're having any problem, you can open a support ticket in our ${(
-    <a href="https://discord.com/invite/bullseum">Discord</a>
-  )}, there is a text channel called ticket-tool where you can contact our team of professionals.
-  `,
+    text: `4) Where do I go for technical support?`,
+    span: `Please visit our technical support channel in ${(
+      <a href="https://discord.gg/AcXyqrEj">discord</a>
+    )}.`,
     aos: "fade-down",
     aosDuration: "1000",
   },
   {
-    text: `5) What is the price of each bull?`,
-    span: `The price for each bull will be 0.07 ETH in the initial sale.`,
+    text: `5) What is the price of a Tesla?`,
+    span: `Despite there being a number of special rare models and designs in the initial sale, each Tesla can be minted initially for 0.08 ETH.`,
     aos: "fade-left",
     aosDuration: "1500",
   },
   {
-    text: `6) Will there be a Maximum Mint per Tx?`,
-    span: `Yes, the maximum of mints per tx will be 25 bulls.`,
+    text: `6) Will there be a minimum or maximum mint?`,
+    span: `A maximum of 25 Teslas can be minted per transaction.`,
     aos: "fade-up",
     aosDuration: "1000",
   },
   {
-    text: `7) How can I see my collection of bulls?`,
-    span: `You can see your entire collection in Open Sea, connecting the wallet with which you have bought the NFTs.`,
+    text: `7) How can I see my collection of Teslas?`,
+    span: `You can see your entire collection on Opensea after connecting your metamask wallet for the NFTs purchased.`,
     aos: "fade-right",
     aosDuration: "1500",
   },
   {
-    text: `8) Why there are bulls already minted?`,
-    span: `There will be 150 NFTs that are for marketing and community giveaways, we make a function for mint them and we only can mint 150 by function definition, you can search it in our contract by the name of mintForPromotion.`,
+    text: `8) Have there been any other Tesla NFTs minted?`,
+    span: `No other NFTs have been minted. This is totally a fair launch with an even distribution. We believe each NFT will be valuable, but there will be rarer versions available in the initial mint (if you’re lucky to grab one!).`,
     aos: "fade-down",
     aosDuration: "1500",
   },
   {
-    text: `9) What are the fees on OpenSea?`,
-    span: `Total fees: 10%`,
-    ul1: `2.5% - Open Sea Platform`,
-    ul2: `7.5% - Bullseum`,
-    li1: `- 4% Community Chest`,
-    li2: `- 3.5% Game Development`,
+    text: `9) What are the fees on Opensea?`,
+    ul1: `2.5% - Opensea Platform`,
+    ul2: `2.5% - Tesla NFT community (marketing and game development)`,
     aos: "fade-down",
     aosDuration: "1500",
   },

@@ -53,22 +53,22 @@
 @media screen and (max-width: 1024px) {
   .next {
     right: 40.5%;
-    top: 90%;
+    top: 85%;
   }
   .prev {
     left: 40%;
-    top: 90%;
+    top: 85%;
   }
 }
 
 @media screen and (max-width: 540px) {
   .next {
     right: 35.5%;
-    top: 90%;
+    top: 85%;
   }
   .prev {
     left: 35.5%;
-    top: 90%;
+    top: 85%;
   }
 }
 

@@ -17,6 +17,21 @@
   font-size: 20px;
   width: 10%;
 }
+.slide-menu-logo {
+  position: absolute;
+  z-index: 1000000;
+  left: 67px;
+  top: 0;
+}
+.mint-your-tesla-slid {
+  position: absolute;
+  right: 6%;
+  top: 15px;
+}
+.slide-menu-logo img {
+  width: 60px;
+  height: 60px;
+}
 .logo img {
   width: 50%;
   object-fit: cover;
@@ -25,24 +40,7 @@
 
 .slide-menu {
   display: none;
-}
-.slide-menu-icon {
-  position: absolute;
-  top: 20px;
-  left: 12px;
-  z-index: 100000;
-  transition: all 0.2s;
-}
-.slide-menu-icon.active span:nth-child(2) {
-  opacity: 0;
-}
-.slide-menu-icon.active span:nth-child(1) {
-  /* margin-bottom: 0.5vh; */
-  transform: rotate(60deg);
-}
-.slide-menu-icon.active span:nth-child(3) {
-  margin-bottom: 1.5vh;
-  transform: rotate(-60deg);
+  transition: all 0.2s !important;
 }
 .slide-menu-icon span {
   width: 35px;
@@ -52,6 +50,29 @@
   display: block;
   background-color: rgb(0, 0, 0);
 }
+.slide-menu-icon {
+  position: absolute;
+  top: 20px;
+  left: 12px;
+  z-index: 100000;
+}
+.slide-menu .slide-menu-icon.active span:nth-child(1) {
+  transition: all 0.5s !important;
+  transform: rotate(60deg);
+}
+.slide-menu .slide-menu-icon.active span:nth-child(2) {
+  transition: all 0.5s !important;
+  opacity: 0;
+}
+.slide-menu .slide-menu-icon.active span:nth-child(3) {
+  margin-top: -9px;
+  transition: all 0.5s !important;
+  transform: rotate(-60deg);
+}
+.slide-menu-icon.active span:nth-child(2) {
+  opacity: 0;
+}
+
 .menu-content {
   top: 0;
   padding-top: 7vh;

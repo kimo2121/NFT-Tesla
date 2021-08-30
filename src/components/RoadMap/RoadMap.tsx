@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import Typography from "../Typography/Typography";
 import "./RoadMap.css";
-import bgRoadmap from "../../assets/images/bg-roadmap.jpg";
+import Cybertruck from "../../assets/images/Cybertruck-__Black.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
 const RoadMap: React.FC = () => {
@@ -14,7 +14,7 @@ const RoadMap: React.FC = () => {
     <div className="road-map">
       {window.innerWidth > 1025 ? (
         <div className="sec-title">
-          <img src={bgRoadmap} alt="" />
+          <img src={Cybertruck} alt="" />
           <span
             data-aos="fade-up"
             data-aos-duration="1000"
@@ -25,23 +25,24 @@ const RoadMap: React.FC = () => {
             data-aos-duration="1000"
             data-aos-easing="linear"
           >
-            RO
+            RA
             <br />
-            AD
+            CE
             <br />
-            MA
-            <br />P
+            TRA
+            <br />
+            CK
           </h2>
         </div>
       ) : (
         <div className="sec-title">
-          <img src={bgRoadmap} alt="" />
+          <img src={Cybertruck} alt="" />
           <h2
             data-aos="fade-down"
             data-aos-duration="1000"
             data-aos-easing="linear"
           >
-            ROADMAP
+            RACETRACK
           </h2>
           <span
             data-aos="fade-up"
@@ -57,13 +58,9 @@ const RoadMap: React.FC = () => {
           data-aos-offset="100"
           className="div-percent div-percent-20"
         >
-          <h3>20%</h3>
-          <Typography className="par-percent-20">
-            - 10 NFT Bulls giveaway beetween holders.
-          </Typography>
-          <Typography className="par-percent-20">
-            - 10 ETH goes to the Community Chest
-          </Typography>
+          <h3>QUALIFYING LAP</h3>
+          <Typography className="par-percent-20">- Proof of concept</Typography>
+          <Typography className="par-percent-20">- Metadata build</Typography>
         </div>
 
         <div
@@ -71,12 +68,12 @@ const RoadMap: React.FC = () => {
           data-aos-duration="1000"
           className="div-percent div-percent-40"
         >
-          <h3>40%</h3>
+          <h3>LAP ONE</h3>
           <Typography className="par-percent-20">
-            - The Suggestions Channel for the Community Chest Utilities is Open.
+            - Release of social media
           </Typography>
           <Typography className="par-percent-20">
-            - 5 ETH goes to the Community Chest.
+            - Rarity guide release
           </Typography>
         </div>
 
@@ -86,17 +83,12 @@ const RoadMap: React.FC = () => {
           data-aos-offset="100"
           className="div-percent div-percent-60"
         >
-          <h3>60%</h3>
+          <h3>LAP TWO</h3>
           <Typography className="par-percent-20">
-            - Art Contest with 2.5ETH in prices Start (Check the Discord Channel
-            for more information).
+            - Reveal & release of minting at 0.08 ETH per Tesla
           </Typography>
           <Typography className="par-percent-20">
-            - 5 NFT Bulls giveaway beetween.
-          </Typography>
-          <Typography className="par-percent-20">
-            - We are going to use 10 ETH to raise the floor price of bulls on
-            OpenSea
+            - Opensea resale market
           </Typography>
         </div>
         <div
@@ -104,13 +96,12 @@ const RoadMap: React.FC = () => {
           data-aos-duration="1500"
           className="div-percent div-percent-80"
         >
-          <h3>80%</h3>
+          <h3>LAP THREE</h3>
           <Typography className="par-percent-20">
-            - 10 ETH goes to the community Chest.
+            - Win a Tesla competition
           </Typography>
           <Typography className="par-percent-20">
-            - Polls for decide the best idea for the Community Chest util
-            starts.
+            - SpaceX NFT airdrop for holders
           </Typography>
         </div>
         <div
@@ -119,20 +110,21 @@ const RoadMap: React.FC = () => {
           data-aos-offset="100"
           className="div-percent div-percent-100"
         >
-          <h3>100%</h3>
+          <h3>PENULTIMATE LAP</h3>
           <Typography className="par-percent-20">
-            - The Polls of the Community Chest Utility ends and start to have
-            effect.
-          </Typography>
-          <Typography className="par-percent-20">
-            - 40ETH are reserved for the VideoGame Development.
+            - Tesla Garage creation for upgrades
           </Typography>
         </div>
         <div
           data-aos="fade-left"
           data-aos-duration="1000"
           className="div-percent div-percent-120"
-        ></div>
+        >
+          <h3>CHECKERED FLAG</h3>
+          <Typography className="par-percent-20">
+            - Doge to the Moon Metaverse & play-to-earn game
+          </Typography>
+        </div>
       </div>
     </div>
   );
