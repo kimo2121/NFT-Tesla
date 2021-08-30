@@ -17,7 +17,7 @@
 }
 @media screen and (max-width: 1024px) {
   .nav-btn {
-    border-bottom: 2px solid white;
+    border-bottom: 2px solid rgb(0, 0, 0);
     width: 100%;
     margin: 0;
     font-size: 2vmax;

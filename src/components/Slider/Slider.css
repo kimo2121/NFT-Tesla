@@ -4,17 +4,16 @@
   overflow: hidden !important;
 }
 .slider-component img {
-  width: 1000px !important;
-  height: 89.3vh !important;
-  object-fit: contain !important;
+  width: 100% !important;
+  height: 600px;
 }
 .slider-component p {
   position: absolute;
-  color: white;
+  color: rgb(0, 0, 0);
   top: 80%;
-  right: 44.5%;
+  right: 40%;
   font-weight: 100;
-  font-size: 0.9vmax;
+  font-size: 1.5vmax;
   z-index: 100;
   text-transform: uppercase;
   /* margin: 0 auto; */
@@ -24,7 +23,7 @@
   width: 45px;
   height: 45px;
   transform: translateY(-50%);
-  color: white;
+  color: rgb(0, 0, 0);
   position: absolute;
   cursor: pointer;
   font-size: 35px;
@@ -33,6 +32,7 @@
 .left-direction {
   margin-top: 20% !important;
   margin-left: 10% !important;
+  margin-right: 50px;
 }
 .right-direction {
   margin-top: 20% !important;
@@ -45,4 +45,25 @@
 .prev {
   left: 45%;
   top: 90%;
+}
+@media screen and (max-width: 1024px) {
+  .next {
+    right: 40.5%;
+    top: 90%;
+  }
+  .prev {
+    left: 40%;
+    top: 90%;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .next {
+    right: 35.5%;
+    top: 90%;
+  }
+  .prev {
+    left: 35.5%;
+    top: 90%;
+  }
 }
