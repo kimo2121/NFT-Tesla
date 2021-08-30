@@ -11,6 +11,10 @@ const Home: React.FC = () => {
   return (
     <div className="home-page">
       <SliderComponent />
+      <div
+        className={window.innerWidth > 1024 ? "banner" : "banner smaller"}
+      ></div>
+
       {/* <Collection /> */}
       <History />
       <RoadMap />

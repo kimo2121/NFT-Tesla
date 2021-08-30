@@ -1,15 +1,13 @@
 .slider-component {
   width: 100%;
   overflow: hidden !important;
-  height: fit-content;
+  height: 100vh;
 }
 .slider-component img {
-  width: 50vmax !important;
-  height: 90vh;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
+  width: 25vmax !important;
+  height: 50vh;
+  position: relative;
+  margin-top: 25vh;
 }
 .slider-component p {
   position: absolute;
@@ -43,11 +41,11 @@
   margin-left: 15% !important;
 }
 .next {
-  right: 45.5%;
+  right: 40.5%;
   top: 90%;
 }
 .prev {
-  left: 45%;
+  left: 40%;
   top: 90%;
 }
 @media screen and (max-width: 1024px) {
@@ -61,6 +59,14 @@
   }
 }
 
+@media screen and (max-width: 768px) {
+  .slider-component img {
+    width: 20vmax !important;
+    height: 30vh;
+    position: relative;
+    margin-top: 40vh;
+  }
+}
 @media screen and (max-width: 540px) {
   .next {
     right: 35.5%;

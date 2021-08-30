@@ -18,13 +18,13 @@ const Navbar: React.FC = () => {
           <img src={logo} alt="" />
         </div>
         <div className="nav-links">
-          <ButtonComponent
+          {/* <ButtonComponent
             className="nav-btn collection-btn"
             label="COLLECTION"
-          />
+          /> */}
           <ButtonComponent className="nav-btn history-btn" label="CONCEPT" />
           <ButtonComponent className="nav-btn roadmap-btn" label="RACETRACK" />
-          <ButtonComponent className="nav-btn team-btn" label="TEAM" />
+          {/* <ButtonComponent className="nav-btn team-btn" label="TEAM" /> */}
           <ButtonComponent className="nav-btn faq-btn" label="FAQ" />
         </div>
         <div className="mint-your-bull">
@@ -60,10 +60,10 @@ const Navbar: React.FC = () => {
             <div className="slide-menu-logo">
               <img src={logo} alt="" />
             </div>
-            <ButtonComponent
+            {/* <ButtonComponent
               className="nav-btn collection-btn"
               label="COLLECTION"
-            />
+            /> */}
             <ButtonComponent
               onClickFun={() => setMenu(false)}
               className="nav-btn history-btn"
@@ -74,11 +74,11 @@ const Navbar: React.FC = () => {
               className="nav-btn roadmap-btn"
               label="RACETRACK"
             />
-            <ButtonComponent
+            {/* <ButtonComponent
               onClickFun={() => setMenu(false)}
               className="nav-btn team-btn"
               label="TEAM"
-            />
+            /> */}
             <ButtonComponent
               onClickFun={() => setMenu(false)}
               className="nav-btn faq-btn"
