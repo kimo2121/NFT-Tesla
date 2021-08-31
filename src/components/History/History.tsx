@@ -11,7 +11,7 @@ const History: React.FC = () => {
     });
   }, []);
   return (
-    <div className="history-component">
+    <div id="concept" className="history-component">
       {window.innerWidth > 1025 ? (
         <div className="sec-title">
           <span

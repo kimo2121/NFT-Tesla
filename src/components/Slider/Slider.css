@@ -1,7 +1,7 @@
 .slider-component {
   width: 100%;
   overflow: hidden !important;
-  height: 100vh;
+  height: 90vh;
 }
 .slider-component img {
   width: 25vmax !important;
@@ -39,27 +39,25 @@
   top: 70%;
 }
 @media screen and (max-width: 1024px) {
-  /* .next {
-    right: 40.5%;
-    top: 90%;
-  }
-  .prev {
-    left: 40%;
-    top: 90%;
-  } */
   .slider-component img {
-    width: 25vmax !important;
-    height: 50vh;
+    width: 20vmax;
+    height: 35vh;
     position: relative;
-    margin-top: 20vh;
+    margin-top: 25vh;
+  }
+  .slider-component {
+    height: 70vh;
   }
 }
 
 @media screen and (max-width: 768px) {
   .slider-component img {
-    width: 20vmax !important;
-    height: 30vh;
+    width: 15vmax !important;
+    height: 15vh;
     position: relative;
-    margin-top: 30vh;
+    margin-top: 12vh;
+  }
+  .slider-component {
+    height: 40vh;
   }
 }

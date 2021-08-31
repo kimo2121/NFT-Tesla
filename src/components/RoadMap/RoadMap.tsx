@@ -11,7 +11,7 @@ const RoadMap: React.FC = () => {
     });
   }, []);
   return (
-    <div className="road-map">
+    <div id="racetrack" className="road-map">
       {window.innerWidth > 1025 ? (
         <div className="sec-title">
           <img src={Cybertruck} alt="" />

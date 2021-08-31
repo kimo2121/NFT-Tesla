@@ -1,9 +1,46 @@
 .nav-btn {
   color: rgb(0, 0, 0);
-  margin: 0 22px;
+  padding: 0 22px;
   font-weight: 100;
-  font-size: 0.88vmax;
+  /* width: 25%; */
+  font-size: 16px;
   letter-spacing: 2px;
+}
+.history-btn .left-border,
+.roadmap-btn .left-border,
+.roadmap-btn .right-border,
+.faq-btn .left-border,
+.faq-btn .right-border,
+.history-btn .right-border {
+  width: 1px;
+  position: absolute;
+  top: 0;
+  margin-left: -120px;
+  background-color: black;
+  height: 0;
+  transition: all 0.6s;
+}
+.history-btn .right-border,
+.roadmap-btn .right-border,
+.faq-btn .right-border {
+  margin-left: 20px;
+  transition-delay: 0.1s;
+}
+.roadmap-btn .left-border {
+  margin-left: -123px;
+}
+.faq-btn .left-border {
+  margin-left: -58.5px;
+}
+.roadmap-btn:hover .right-border,
+.history-btn:hover .right-border,
+.faq-btn:hover .right-border {
+  height: 13vh;
+}
+.history-btn:hover .left-border,
+.faq-btn:hover .left-border,
+.roadmap-btn:hover .left-border {
+  height: 15vh;
 }
 .mint-your-bull-btn {
   color: white;
@@ -27,7 +64,10 @@
     border: 0;
   }
   .mint-your-bull-btn {
+    right: 20px;
+    position: relative;
     padding: 2vmin 1.5vmin;
+    width: fit-content;
     font-size: 2.4vmin;
   }
 }

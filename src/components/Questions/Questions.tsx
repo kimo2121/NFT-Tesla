@@ -24,6 +24,7 @@ const Questions: React.FC = () => {
   const plusMinusAnimation = (index: number) => {
     return (
       <div
+        id="questions"
         className={
           state1 === index ? "circle-plus opened" : "circle-plus closed"
         }

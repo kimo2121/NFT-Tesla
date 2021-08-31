@@ -6,8 +6,14 @@ const ButtonComponent: React.FC<ButtonTypes> = ({
   label,
   onClickFun,
   className,
+  children,
 }) => {
-  return <div className={className}>{label}</div>;
+  return (
+    <div onClick={onClickFun} className={className}>
+      {label}
+      {children}
+    </div>
+  );
 };
 
 export default ButtonComponent;

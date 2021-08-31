@@ -18,3 +18,15 @@
 .banner.smaller {
   /* background-size: 160% 115%; */
 }
+@media screen and (max-width: 1024px) {
+  .banner {
+    background-image: url("/src/assets/images/opensea2.jpg");
+    height: 70%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .banner {
+    background-image: url("/src/assets/images/opensea3.jpg");
+    height: 35%;
+  }
+}
