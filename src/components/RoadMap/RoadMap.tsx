@@ -64,7 +64,6 @@ const RoadMap: React.FC = () => {
           </Typography>
           <Typography className="par-percent-20">🏁 Metadata build</Typography>
         </div>
-
         <div
           data-aos="fade-right"
           data-aos-duration="1000"

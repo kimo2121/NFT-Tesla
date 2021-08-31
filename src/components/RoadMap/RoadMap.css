@@ -103,11 +103,11 @@
 
 @media screen and (max-width: 576px) {
   .percentages {
-    display: grid;
-    grid-template-columns: 1fr;
+    display: block;
+    /* grid-template-columns: 1fr; */
   }
   .div-percent {
-    border: none;
-    border-bottom: 1px solid white;
+    border: 0 !important;
+    border-bottom: 1px solid white !important;
   }
 }
