@@ -18,7 +18,9 @@ const Navbar: React.FC = () => {
       <div className="nav-bar">
         <div className="logo">
           {/* <img src={logo} alt="" /> */}
-          <p>Elon's Tesla</p>
+          <a href="/">
+            <p>Elon's Tesla</p>
+          </a>
         </div>
         <div className="nav-links">
           {/* <ButtonComponent
@@ -77,7 +79,9 @@ const Navbar: React.FC = () => {
             </nav>
             <div className="mint-your-tesla-slid"></div>
             <div className="slide-menu-logo">
-              <p>Elon's Tesla</p>
+              <a href="/">
+                <p>Elon's Tesla</p>
+              </a>
             </div>
             {/* <ButtonComponent
               className="nav-btn collection-btn"

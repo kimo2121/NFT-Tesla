@@ -50,13 +50,10 @@ const Questions: React.FC = () => {
             data-aos-duration="1000"
             data-aos-easing="linear"
           >
-            QU
+            F
             <br />
-            ES
-            <br />
-            TIO
-            <br />
-            NS
+            A
+            <br />Q
           </h2>
         </div>
       ) : (
@@ -66,7 +63,7 @@ const Questions: React.FC = () => {
             data-aos-duration="1000"
             data-aos-easing="linear"
           >
-            QuestionS
+            FAQ
           </h2>
           <span
             data-aos="fade-up"

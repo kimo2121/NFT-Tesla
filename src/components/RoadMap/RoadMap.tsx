@@ -59,8 +59,10 @@ const RoadMap: React.FC = () => {
           className="div-percent div-percent-20"
         >
           <h3>QUALIFYING LAP</h3>
-          <Typography className="par-percent-20">- Proof of concept</Typography>
-          <Typography className="par-percent-20">- Metadata build</Typography>
+          <Typography className="par-percent-20">
+            🏁 Proof of concept
+          </Typography>
+          <Typography className="par-percent-20">🏁 Metadata build</Typography>
         </div>
 
         <div
@@ -70,10 +72,10 @@ const RoadMap: React.FC = () => {
         >
           <h3>LAP ONE</h3>
           <Typography className="par-percent-20">
-            - Release of social media
+            🏁 Release of social media
           </Typography>
           <Typography className="par-percent-20">
-            - Rarity guide release
+            🏁 Rarity guide release
           </Typography>
         </div>
 
@@ -85,10 +87,10 @@ const RoadMap: React.FC = () => {
         >
           <h3>LAP TWO</h3>
           <Typography className="par-percent-20">
-            - Reveal & release of minting at 0.08 ETH per Tesla
+            🏁 Reveal & release of minting at 0.08 ETH per Tesla
           </Typography>
           <Typography className="par-percent-20">
-            - Opensea resale market
+            🏁 Opensea resale market
           </Typography>
         </div>
         <div
@@ -98,10 +100,10 @@ const RoadMap: React.FC = () => {
         >
           <h3>LAP THREE</h3>
           <Typography className="par-percent-20">
-            - Win a Tesla competition
+            🏁 Win a Tesla competition
           </Typography>
           <Typography className="par-percent-20">
-            - SpaceX NFT airdrop for holders
+            🏁 SpaceX NFT airdrop for holders
           </Typography>
         </div>
         <div
@@ -112,7 +114,7 @@ const RoadMap: React.FC = () => {
         >
           <h3>PENULTIMATE LAP</h3>
           <Typography className="par-percent-20">
-            - Tesla Garage creation for upgrades
+            🏁 Tesla Garage creation for upgrades
           </Typography>
         </div>
         <div
@@ -122,7 +124,7 @@ const RoadMap: React.FC = () => {
         >
           <h3>CHECKERED FLAG</h3>
           <Typography className="par-percent-20">
-            - Doge to the Moon Metaverse & play-to-earn game
+            🏁 Doge to the Moon Metaverse & play-to-earn game
           </Typography>
         </div>
       </div>

@@ -6,6 +6,15 @@
   background-color: transparent !important;
   border-bottom: solid 1px rgb(0, 0, 0);
 }
+.nav-bar a:active {
+  color: black;
+}
+.nav-bar a:visited {
+  color: black;
+}
+.nav-bar a {
+  text-decoration: none;
+}
 .nav-links {
   display: flex;
   justify-content: space-between;

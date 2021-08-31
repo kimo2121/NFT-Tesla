@@ -101,11 +101,13 @@
   }
 }
 
-@media screen and (max-width: 667px) {
-  .div-percent {
-    padding: 4vmax 3vmax;
+@media screen and (max-width: 576px) {
+  .percentages {
+    display: grid;
+    grid-template-columns: 1fr;
   }
-  .div-percent h3 {
-    font-size: 7.75vmin;
+  .div-percent {
+    border: none;
+    border-bottom: 1px solid white;
   }
 }
