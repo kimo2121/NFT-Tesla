@@ -38,40 +38,20 @@ const Questions: React.FC = () => {
   };
   return (
     <div className="questions-container">
-      {window.innerWidth > 1025 ? (
-        <div className="sec-title">
-          <span
-            data-aos="fade-up"
-            data-aos-duration="1000"
-            data-aos-easing="linear"
-          ></span>
-          <h2
-            data-aos="fade-down"
-            data-aos-duration="1000"
-            data-aos-easing="linear"
-          >
-            F
-            <br />
-            A
-            <br />Q
-          </h2>
-        </div>
-      ) : (
-        <div className="sec-title">
-          <h2
-            data-aos="fade-down"
-            data-aos-duration="1000"
-            data-aos-easing="linear"
-          >
-            FAQ
-          </h2>
-          <span
-            data-aos="fade-up"
-            data-aos-duration="1000"
-            data-aos-easing="linear"
-          ></span>
-        </div>
-      )}
+      <div className="sec-title">
+        <h2
+          data-aos="fade-down"
+          data-aos-duration="1000"
+          data-aos-easing="linear"
+        >
+          FAQ
+        </h2>
+        <span
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-easing="linear"
+        ></span>
+      </div>
       <div className="questions">
         {data.map((item, index) => (
           <div key={index}>
@@ -97,6 +77,8 @@ const Questions: React.FC = () => {
               }
             >
               {item?.span}
+              {index === 3 && <a href="https://discord.gg/AcXyqrEj">Discord</a>}
+              .
               {item.ul1 && (
                 <ul>
                   <li>{item?.ul1}</li>

@@ -1,7 +1,8 @@
 .history-component {
-  display: flex;
-  justify-content: space-between;
+  /* display: flex; */
+  /* justify-content: space-between; */
   padding-right: 72px;
+  padding-left: 72px;
   padding-top: 48px;
   padding-bottom: 193px;
 }
@@ -10,17 +11,17 @@
   font-size: 4.2vmax;
   text-align: start;
   margin: 0;
-  display: flex;
+  /* display: flex; */
   height: inherit;
   align-items: center;
   color: white;
 }
 .sec-title span {
   display: block !important;
-  width: 19.5px;
+  width: 100%;
   transition: all 0.2s !important;
-  height: 100%;
-  margin-right: 30px;
+  height: 20px;
+  /* margin-right: 30px; */
   background: #988301;
 }
 .sec-title h2 {

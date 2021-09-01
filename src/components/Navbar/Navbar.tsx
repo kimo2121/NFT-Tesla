@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import ButtonComponent from "../ButtonComponent/ButtonComponent";
 import "./Navbar.css";
-import logo from "../../assets/images/Logo2.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { Link } from "react-scroll";
@@ -42,6 +41,15 @@ const Navbar: React.FC = () => {
           {/* <ButtonComponent className="nav-btn team-btn" label="TEAM" /> */}
           <Link smooth={true} duration={1000} to="questions">
             <ButtonComponent className="nav-btn faq-btn" label="FAQ">
+              <span className="left-border"></span>
+              <span className="right-border"></span>
+            </ButtonComponent>
+          </Link>
+          <Link smooth={true} duration={1000} to="social-media">
+            <ButtonComponent
+              className="nav-btn social-media-btn"
+              label="Social Media"
+            >
               <span className="left-border"></span>
               <span className="right-border"></span>
             </ButtonComponent>
@@ -112,6 +120,16 @@ const Navbar: React.FC = () => {
                 className="nav-btn faq-btn"
                 label="FAQ"
               />
+            </Link>
+            <Link smooth={true} duration={1000} to="social-media">
+              <ButtonComponent
+                onClickFun={() => setMenu(false)}
+                className="nav-btn social-media-btn"
+                label="Social Media"
+              >
+                <span className="left-border"></span>
+                <span className="right-border"></span>
+              </ButtonComponent>
             </Link>
           </div>
         )}

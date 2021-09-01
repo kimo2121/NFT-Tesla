@@ -1,12 +1,13 @@
 .questions-container {
-  justify-content: space-between;
-  display: flex;
+  /* justify-content: space-between; */
+  /* display: flex; */
   padding-right: 72px;
+  padding-left: 72px;
   padding-bottom: 144px;
 }
 .questions {
   text-align: left;
-  width: 70%;
+  width: 100%;
 }
 .closed {
   opacity: 0;

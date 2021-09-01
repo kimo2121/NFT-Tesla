@@ -1,8 +1,9 @@
 .team-members {
-  display: flex;
+  /* display: flex; */
   padding-right: 72px;
+  padding-left: 72px;
   padding-bottom: 193px;
-  justify-content: space-between;
+  /* justify-content: space-between; */
 }
 .team-members-bull {
   width: auto;

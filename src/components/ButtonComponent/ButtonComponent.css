@@ -6,6 +6,8 @@
   font-size: 16px;
   letter-spacing: 2px;
 }
+.social-media-btn .right-border,
+.social-media-btn .left-border,
 .history-btn .left-border,
 .roadmap-btn .left-border,
 .roadmap-btn .right-border,
@@ -20,6 +22,7 @@
   height: 0;
   transition: all 0.6s;
 }
+.social-media-btn .right-border,
 .history-btn .right-border,
 .roadmap-btn .right-border,
 .faq-btn .right-border {
@@ -29,14 +32,19 @@
 .roadmap-btn .left-border {
   margin-left: -123px;
 }
+.social-media-btn .left-border {
+  margin-left: -133px;
+}
 .faq-btn .left-border {
   margin-left: -58.5px;
 }
+.social-media-btn:hover .right-border,
 .roadmap-btn:hover .right-border,
 .history-btn:hover .right-border,
 .faq-btn:hover .right-border {
   height: 13vh;
 }
+.social-media-btn:hover .left-border,
 .history-btn:hover .left-border,
 .faq-btn:hover .left-border,
 .roadmap-btn:hover .left-border {

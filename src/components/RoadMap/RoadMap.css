@@ -1,7 +1,8 @@
 .road-map {
-  display: flex;
-  justify-content: space-between;
+  /* display: flex; */
+  /* justify-content: space-between; */
   padding-right: 72.39px;
+  padding-left: 72.39px;
   padding-bottom: 193px;
 }
 .percent-20 {

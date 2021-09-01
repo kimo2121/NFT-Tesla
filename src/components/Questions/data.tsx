@@ -32,9 +32,7 @@ export const data: dataType["paragraphs"] = [
   },
   {
     text: `4) Where do I go for technical support?`,
-    span: `Please visit our technical support channel in ${(
-      <a href="https://discord.gg/AcXyqrEj">discord</a>
-    )}.`,
+    span: `Please visit our technical support channel in `,
     aos: "fade-down",
     aosDuration: "1000",
   },
@@ -70,3 +68,5 @@ export const data: dataType["paragraphs"] = [
     aosDuration: "1500",
   },
 ];
+
+//<a href="https://discord.gg/AcXyqrEj">'discord'</a>

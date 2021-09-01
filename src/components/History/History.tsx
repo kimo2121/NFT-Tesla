@@ -12,7 +12,21 @@ const History: React.FC = () => {
   }, []);
   return (
     <div id="concept" className="history-component">
-      {window.innerWidth > 1025 ? (
+      <div className="sec-title">
+        <h2
+          data-aos="fade-down"
+          data-aos-duration="1000"
+          data-aos-easing="linear"
+        >
+          CONCEPT
+        </h2>
+        <span
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-easing="linear"
+        ></span>
+      </div>
+      {/* {window.innerWidth > 1025 ? (
         <div className="sec-title">
           <span
             data-aos="fade-up"
@@ -33,21 +47,8 @@ const History: React.FC = () => {
           </h2>
         </div>
       ) : (
-        <div className="sec-title">
-          <h2
-            data-aos="fade-down"
-            data-aos-duration="1000"
-            data-aos-easing="linear"
-          >
-            CONCEPT
-          </h2>
-          <span
-            data-aos="fade-up"
-            data-aos-duration="1000"
-            data-aos-easing="linear"
-          ></span>
-        </div>
-      )}
+        
+      )} */}
       <div className="img-text-container">
         <div
           data-aos="fade-right"

@@ -3,10 +3,12 @@
 .App {
   text-align: center;
 }
+
 .banner {
   background-image: url("/src/assets/images/opensea.jpg");
-  background-size: 100% 115%;
+  background-size: 100% 110%;
   height: 80%;
+  margin-top: 2vh;
   background-position: center;
   background-repeat: no-repeat;
   position: absolute;
@@ -15,12 +17,11 @@
   top: 0;
   right: 0;
 }
-.banner.smaller {
-  /* background-size: 160% 115%; */
-}
+
 @media screen and (max-width: 1024px) {
   .banner {
     background-image: url("/src/assets/images/opensea2.jpg");
+    background-size: 100% 105%;
     height: 70%;
   }
 }
@@ -28,5 +29,6 @@
   .banner {
     background-image: url("/src/assets/images/opensea3.jpg");
     height: 35%;
+    background-size: 100% 75%;
   }
 }

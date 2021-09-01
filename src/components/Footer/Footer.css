@@ -6,7 +6,8 @@
 }
 .other-inner {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  align-items: flex-start;
 }
 .footer {
   display: flex;
@@ -15,6 +16,10 @@
   background-color: #988301;
   align-items: flex-start;
   justify-content: center;
+}
+.other-inner img {
+  /* width: 40px; */
+  height: 30px;
 }
 .discord {
   margin-right: 97px;
