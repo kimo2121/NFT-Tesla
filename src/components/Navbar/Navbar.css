@@ -90,7 +90,8 @@
   flex-direction: column;
 }
 .slid-nav {
-  padding: 2vmax;
+  height: 67px;
+  /* padding: 2vmax; */
   display: flex;
   background-color: white;
   justify-content: flex-end;
@@ -119,15 +120,11 @@
   top: 2vh;
   stroke-width: 10px;
 }
-.menu-content button {
-  margin: 0vh auto;
-  border-radius: 5px;
-  padding: 10px 30px;
-  font-size: 16px;
+
+.btn-side-menu {
+  border-bottom: 1px solid black;
 }
-.menu-content button:active {
-  background-color: rgb(32, 87, 129);
-}
+
 @media screen and (max-width: 1024px) {
   .nav-links {
     display: none;

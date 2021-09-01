@@ -6,13 +6,15 @@
   font-size: 16px;
   letter-spacing: 2px;
 }
+.mint-btn .right-border,
+.mint-btn .left-border,
 .social-media-btn .right-border,
 .social-media-btn .left-border,
-.history-btn .left-border,
 .roadmap-btn .left-border,
 .roadmap-btn .right-border,
 .faq-btn .left-border,
 .faq-btn .right-border,
+.history-btn .left-border,
 .history-btn .right-border {
   width: 1px;
   position: absolute;
@@ -22,6 +24,10 @@
   height: 0;
   transition: all 0.6s;
 }
+.history-btn .left-border {
+  margin-left: -105px;
+}
+.mint-btn .right-border,
 .social-media-btn .right-border,
 .history-btn .right-border,
 .roadmap-btn .right-border,
@@ -38,28 +44,25 @@
 .faq-btn .left-border {
   margin-left: -58.5px;
 }
+.mint-btn .left-border {
+  margin-left: -70px;
+}
+
+.mint-btn:hover .right-border,
 .social-media-btn:hover .right-border,
 .roadmap-btn:hover .right-border,
 .history-btn:hover .right-border,
 .faq-btn:hover .right-border {
   height: 13vh;
 }
+.mint-btn:hover .left-border,
 .social-media-btn:hover .left-border,
 .history-btn:hover .left-border,
 .faq-btn:hover .left-border,
 .roadmap-btn:hover .left-border {
   height: 15vh;
 }
-.mint-your-bull-btn {
-  color: white;
-  /* background: #988301; */
-  background-image: linear-gradient(
-    to top left,
-    #988301 50%,
-    rgb(165, 144, 26) 50%
-  );
-  padding: 12px 19px;
-}
+
 @media screen and (max-width: 1024px) {
   .nav-btn {
     border-bottom: 2px solid rgb(0, 0, 0);

@@ -16,16 +16,17 @@ const Navbar: React.FC = () => {
     <div>
       <div className="nav-bar">
         <div className="logo">
-          {/* <img src={logo} alt="" /> */}
           <a href="/">
             <p>Elon's Tesla</p>
           </a>
         </div>
         <div className="nav-links">
-          {/* <ButtonComponent
-            className="nav-btn collection-btn"
-            label="COLLECTION"
-          /> */}
+          <Link smooth={true} duration={1000} to="mint">
+            <ButtonComponent className="nav-btn mint-btn" label="MINT">
+              <span className="left-border"></span>
+              <span className="right-border"></span>
+            </ButtonComponent>
+          </Link>
           <Link smooth={true} duration={1000} to="concept">
             <ButtonComponent className="nav-btn history-btn" label="CONCEPT">
               <span className="left-border"></span>
@@ -38,7 +39,6 @@ const Navbar: React.FC = () => {
               <span className="right-border"></span>
             </ButtonComponent>
           </Link>
-          {/* <ButtonComponent className="nav-btn team-btn" label="TEAM" /> */}
           <Link smooth={true} duration={1000} to="questions">
             <ButtonComponent className="nav-btn faq-btn" label="FAQ">
               <span className="left-border"></span>
@@ -55,12 +55,7 @@ const Navbar: React.FC = () => {
             </ButtonComponent>
           </Link>
         </div>
-        <div className="mint-your-bull">
-          <ButtonComponent
-            className="mint-your-bull-btn"
-            label="MINT YOUR TESLA"
-          />
-        </div>
+        <div className="mint-your-bull"></div>
       </div>
       <div className="slide-menu">
         {menu && <div className="backdrop-back"></div>}
@@ -79,57 +74,72 @@ const Navbar: React.FC = () => {
             data-aos-easing="linear"
             className={menu ? "menu-content active" : "menu-content"}
           >
-            <nav className="slid-nav">
-              <ButtonComponent
-                className="mint-your-bull-btn"
-                label="MINT YOUR TESLA"
-              />
-            </nav>
+            <nav className="slid-nav"></nav>
             <div className="mint-your-tesla-slid"></div>
             <div className="slide-menu-logo">
               <a href="/">
                 <p>Elon's Tesla</p>
               </a>
             </div>
-            {/* <ButtonComponent
-              className="nav-btn collection-btn"
-              label="COLLECTION"
-            /> */}
-            <Link smooth={true} duration={1000} to="concept">
+            <Link
+              className="btn-side-menu"
+              smooth={true}
+              duration={1000}
+              to="mint"
+            >
+              <ButtonComponent
+                onClickFun={() => setMenu(false)}
+                className="nav-btn mint-btn"
+                label="MINT"
+              ></ButtonComponent>
+            </Link>
+            <Link
+              className="btn-side-menu"
+              smooth={true}
+              duration={1000}
+              to="concept"
+            >
               <ButtonComponent
                 onClickFun={() => setMenu(false)}
                 className="nav-btn history-btn"
                 label="CONCEPT"
               />
             </Link>
-            <Link smooth={true} duration={1000} to="racetrack">
+            <Link
+              className="btn-side-menu"
+              smooth={true}
+              duration={1000}
+              to="racetrack"
+            >
               <ButtonComponent
                 onClickFun={() => setMenu(false)}
                 className="nav-btn roadmap-btn"
                 label="RACETRACK"
               />
             </Link>
-            {/* <ButtonComponent
-              onClickFun={() => setMenu(false)}
-              className="nav-btn team-btn"
-              label="TEAM"
-            /> */}
-            <Link smooth={true} duration={1000} to="questions">
+            <Link
+              className="btn-side-menu"
+              smooth={true}
+              duration={1000}
+              to="questions"
+            >
               <ButtonComponent
                 onClickFun={() => setMenu(false)}
                 className="nav-btn faq-btn"
                 label="FAQ"
               />
             </Link>
-            <Link smooth={true} duration={1000} to="social-media">
+            <Link
+              className="btn-side-menu"
+              smooth={true}
+              duration={1000}
+              to="social-media"
+            >
               <ButtonComponent
                 onClickFun={() => setMenu(false)}
                 className="nav-btn social-media-btn"
                 label="Social Media"
-              >
-                <span className="left-border"></span>
-                <span className="right-border"></span>
-              </ButtonComponent>
+              ></ButtonComponent>
             </Link>
           </div>
         )}
