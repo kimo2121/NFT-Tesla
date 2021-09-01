@@ -47,7 +47,6 @@ const History: React.FC = () => {
           </h2>
         </div>
       ) : (
-        
       )} */}
       <div className="img-text-container">
         <div

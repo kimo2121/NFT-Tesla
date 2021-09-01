@@ -10,7 +10,7 @@
 .sec-title {
   font-size: 4.2vmax;
   text-align: start;
-  margin: 0;
+  margin-bottom: 4vh;
   /* display: flex; */
   height: inherit;
   align-items: center;
@@ -47,10 +47,10 @@
   height: fit-content;
 }
 .history-component img {
-  margin: 0 -35px;
+  margin: 0 -27px;
   position: relative;
-  margin-top: 10vh;
-  opacity: 0.6;
+  margin-top: 6vh;
+  opacity: 0.3;
   width: 30vmax;
 }
 .img-text-container {
@@ -111,7 +111,7 @@
     border-right: 1px solid gray;
   }
   .history-component img {
-    margin: -5vh 0;
+    margin: -3vh 0;
     border: 5px solid #988301;
     width: 70%;
   }

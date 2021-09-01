@@ -77,8 +77,10 @@ const Questions: React.FC = () => {
               }
             >
               {item?.span}
-              {index === 3 && <a href="https://discord.gg/AcXyqrEj">Discord</a>}
-              .
+              {index === 3 && (
+                <a href="https://discord.gg/AcXyqrEj">Discord.</a>
+              )}
+
               {item.ul1 && (
                 <ul>
                   <li>{item?.ul1}</li>
