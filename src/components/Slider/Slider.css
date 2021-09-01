@@ -52,8 +52,8 @@
 
 @media screen and (max-width: 768px) {
   .slider-component img {
-    width: 15vmax !important;
-    height: 15vh;
+    width: 13vmax !important;
+    height: 13vh;
     position: relative;
     margin-top: 10vh;
   }
