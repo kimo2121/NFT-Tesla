@@ -126,7 +126,7 @@ const Mint: React.FC = () => {
         className="mint-component"
       >
         <div className="counter-button-container">
-          <h1>Mint your Non-Fungible CoolAliens</h1>
+          <h1>Mint your Mint Your Tesla</h1>
           <div className="btn-group">
             <div className={classes.root}>
               <div>
