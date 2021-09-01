@@ -16,7 +16,7 @@
   width: 670px;
 }
 .div-percent h3 {
-  font-size: 2.2vmax;
+  font-size: 2.4vmax;
   font-weight: 600;
   /* word-wrap: break-word !important; */
   /* word-break: break-all !important; */
@@ -94,7 +94,7 @@
   }
   .percentages {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 47.5vw 47.5vw;
   }
   .sec-title img {
     height: 80%;
@@ -102,14 +102,14 @@
     object-fit: cover;
   }
   .div-percent h3 {
-    font-size: 4.5vmin;
+    font-size: 5.5vmin;
     width: 100%;
   }
 }
 
 @media screen and (max-width: 768px) {
   .div-percent h3 {
-    font-size: 4vmin;
+    font-size: 4.7vmin;
   }
 }
 @media screen and (max-width: 576px) {
