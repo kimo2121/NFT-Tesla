@@ -119,7 +119,12 @@ const Mint: React.FC = () => {
           data-aos-easing="linear"
         ></span>
       </div>
-      <div className="mint-component">
+      <div
+        data-aos="fade-left"
+        data-aos-duration="1000"
+        data-aos-easing="linear"
+        className="mint-component"
+      >
         <div className="counter-button-container">
           <h1>Mint your Non-Fungible CoolAliens</h1>
           <div className="btn-group">
