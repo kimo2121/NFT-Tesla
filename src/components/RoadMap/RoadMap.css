@@ -16,10 +16,11 @@
   width: 670px;
 }
 .div-percent h3 {
-  font-size: 3.75vmax;
+  font-size: 2.2vmax;
   font-weight: 600;
-  word-wrap: break-word !important;
-  word-break: break-all !important;
+  /* word-wrap: break-word !important; */
+  /* word-break: break-all !important; */
+  width: 100%;
   line-height: 1.2;
   text-transform: uppercase;
   color: #988301;
@@ -29,7 +30,7 @@
   text-align: left;
   /* width: 20%; */
   min-height: fit-content;
-  padding: 48px 72px;
+  padding: 2.5vmax 3.8vmax;
 }
 .percentages {
   display: grid;
@@ -93,15 +94,24 @@
   }
   .percentages {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: auto auto;
   }
   .sec-title img {
     height: 80%;
     width: 80%;
     object-fit: cover;
   }
+  .div-percent h3 {
+    font-size: 4.5vmin;
+    width: 100%;
+  }
 }
 
+@media screen and (max-width: 768px) {
+  .div-percent h3 {
+    font-size: 4vmin;
+  }
+}
 @media screen and (max-width: 576px) {
   .percentages {
     display: block;
@@ -110,5 +120,8 @@
   .div-percent {
     border: 0 !important;
     border-bottom: 1px solid white !important;
+  }
+  .div-percent h3 {
+    font-size: 5vmin;
   }
 }
