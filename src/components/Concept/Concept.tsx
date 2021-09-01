@@ -1,17 +1,17 @@
 import React, { useEffect } from "react";
 import Typography from "../Typography/Typography";
-import "./History.css";
+import "./Concept.css";
 import elonTesla from "../../assets/images/elonTesla.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
-const History: React.FC = () => {
+const Concept: React.FC = () => {
   useEffect(() => {
     AOS.init({
       duration: 1400,
     });
   }, []);
   return (
-    <div id="concept" className="history-component">
+    <div id="concept" className="concept-component">
       <div className="sec-title">
         <h2
           data-aos="fade-down"
@@ -93,4 +93,4 @@ const History: React.FC = () => {
   );
 };
 
-export default History;
+export default Concept;

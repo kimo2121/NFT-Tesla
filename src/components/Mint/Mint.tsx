@@ -120,7 +120,7 @@ const Mint: React.FC = () => {
         ></span>
       </div>
       <div
-        data-aos="fade-left"
+        data-aos="fade-right"
         data-aos-duration="1000"
         data-aos-easing="linear"
         className="mint-component"

@@ -1,4 +1,4 @@
-.road-map {
+.race-track {
   /* display: flex; */
   /* justify-content: space-between; */
   padding-right: 72.39px;
@@ -57,7 +57,7 @@
   margin-top: 2vh;
 }
 @media screen and (max-width: 1024px) {
-  .road-map {
+  .race-track {
     padding: 0;
     padding-right: 20px;
     padding-left: 20px;

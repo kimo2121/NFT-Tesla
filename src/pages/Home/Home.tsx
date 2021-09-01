@@ -1,9 +1,9 @@
 import React from "react";
 import Collection from "../../components/Collection/Collection";
-import History from "../../components/History/History";
+import History from "../../components/Concept/Concept";
 import Mint from "../../components/Mint/Mint";
-import Questions from "../../components/Questions/Questions";
-import RoadMap from "../../components/RoadMap/RoadMap";
+import Questions from "../../components/FAQ/FAQ";
+import RoadMap from "../../components/RaceTrack/RaceTrack";
 import SliderComponent from "../../components/Slider/Slider";
 import TeamMembers from "../../components/TeamMembers/TeamMembers";
 import "./Home.css";

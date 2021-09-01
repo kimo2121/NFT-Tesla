@@ -1,17 +1,17 @@
 import React, { useEffect } from "react";
 import Typography from "../Typography/Typography";
-import "./RoadMap.css";
+import "./RaceTrack.css";
 import Cybertruck from "../../assets/images/Cybertruck-__Black.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
-const RoadMap: React.FC = () => {
+const RaceTrack: React.FC = () => {
   useEffect(() => {
     AOS.init({
       duration: 1400,
     });
   }, []);
   return (
-    <div id="racetrack" className="road-map">
+    <div id="racetrack" className="race-track">
       <div className="sec-title">
         <img src={Cybertruck} alt="" />
         <h2
@@ -107,4 +107,4 @@ const RoadMap: React.FC = () => {
   );
 };
 
-export default RoadMap;
+export default RaceTrack;

@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from "react";
 import Typography from "../Typography/Typography";
 import { data } from "./data";
-import "./Questions.css";
+import "./FAQ.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
-const Questions: React.FC = () => {
+const FAQ: React.FC = () => {
   const [state1, setstate1] = useState<any>(10);
 
   useEffect(() => {
@@ -37,7 +37,7 @@ const Questions: React.FC = () => {
     );
   };
   return (
-    <div className="questions-container">
+    <div className="faq-container">
       <div className="sec-title">
         <h2
           data-aos="fade-down"
@@ -99,4 +99,4 @@ const Questions: React.FC = () => {
   );
 };
 
-export default Questions;
+export default FAQ;

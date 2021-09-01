@@ -12,6 +12,7 @@
   color: #988301;
 }
 .mint-component {
+  margin: 0 auto;
   background: #ffffffd7;
   width: fit-content;
   border-radius: 20px;
